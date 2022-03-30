@@ -1,3 +1,12 @@
-http://localhost:8080/book/open
-/mnt/yi/tomcat8/webapps/videoadmin/WEB-INF/classes/com/videoadmin
-/mnt/yi/tomcat88/webapps/videoadmin/WEB-INF/classes/com/videoadmin
+spring:
+  profile:
+      active:
+---
+spring:
+  profiles: dev #开发环境
+  application:
+    name: yi-cloud
+---
+spring:
+  application:
+    name: yi-cloud2

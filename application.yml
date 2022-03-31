@@ -5,8 +5,9 @@ spring:
 spring:
   profiles: dev #开发环境
   application:
-    name: yi-cloud
+    name: yi-cloud1
 ---
 spring:
+  profiles: test
   application:
     name: yi-cloud2
